@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+.fondo{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 12px;
+
+}
+.menu {
+    background-color: rgb(80, 106, 255);
+    color: black;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    color: black;
+    gap: 50px;
+    justify-content: center;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover{
+    color:black;
+
+}
+
+.container {
+    margin: 20px;
+}
+.container h1 {
+    color: midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center ;
+    
+}
+.container h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center;
+} 
+
+section{ 
+    width: 100%;
+  
+}
+
+section img{
+    width: 100%;
+    height: 100%;
+   
+  
+}
+.informacion{
+    display: flex;
+    flex-wrap: wrap;
+}
+.informacion img{
+    max-width: 100%;
+}
+
+.casilla{
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid rgb(80, 106, 255);
+    flex: 1 1 2px;
+    border-radius: 20px;
+}
+.casilla h2  {
+    display: flex;
+    justify-content:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.casilla p {
+    display: flex;
+    justify-content:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.tracklist ol{
+    list-style-position: inside;
+    padding: 0;
+    margin: 15px auto;
+    text-align: center;
+}
+input{
+    width: 30%;
+    margin-top: 12px;
+}
+.form{
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgb(80, 106, 255);
+    flex: 1 1 2px;
+    border-radius: 10px;
+    
+}
+.casilla-form{
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border: 5px solid rgb(80, 106, 255);
+    flex: 1 1 2px;
+    border-radius: 10px;
+   
+}
+.p-form{
+    font-size: x-large;
+    font-weight: bold;
+}
+.boton-enviar:hover{
+    background-color: rgb(112, 138, 255);
+}
+footer{
+    justify-content: center;
+    text-align: center;
+}

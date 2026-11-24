@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./utilidades/style.css"/>
+</head>
+<body style="background-color: rgb(168, 199, 224); color: black;">
+   <nav class="menu">
+            <ul>
+                <li><a href="./inicio.html">Inicio</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./informacion.html">Información</a></li>
+            </ul>
+            
+        </nav>
+    <main class="container">
+        <form>
+        <div class="casilla-form">
+             <p class="p-form">Dime qué música te gusta y te mantendremos informado</p>
+            <div class="form">
+                <label>Nombre</label>
+                <input  type="text"/>
+             </div>
+             <div class="form">
+                <label>Email</label>
+                <input  placeholder="123@example.com" type="email"/>
+            </div>
+            <div class="form">
+                <label>Teléfono</label>
+                <input type="tel"/>
+            </div>
+            <div class="form">
+                <label>Fecha nacimiento</label>
+                <input type="date"/>
+            </div>
+            <div class="form">
+                <label>Contraseña</label>
+                <input type="password"/>
+            </div>
+            <div class="form">
+                <label>¿De qué artista quieres estar informado?</label>
+                <input type="text" style="display: block; margin: 0 auto;"/>
+            </div>
+            <button class="boton-enviar" id="btnAdd">Enviar</button>
+            <button class="boton-enviar" id="btnClear">Limpiar</button>
+        </div>
+        </form>
+    </main>
+</body>
+</html>
